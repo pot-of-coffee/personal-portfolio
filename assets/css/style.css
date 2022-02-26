@@ -32,7 +32,7 @@ header nav ul li {
 
 .hero-spotlight {
 	flex: 1 30%;
-	justify-content: center;
+	align-content: center;
 }
 
 	.hero-spotlight img {
@@ -61,21 +61,21 @@ header nav ul li {
 			display: inline-block;
 		}
 
-/* Featured Repo Section in hero*/
+/* Featured Repo Section in hero */
 
 .featured-repolist {
 	display: flex;
-	justify-content: space-around;
 	flex-wrap: wrap;
 }
 
 .featured-repo {
 	display: flex;
-	width: 80%;
+	width: 100%;
 }
 
 .repo-thumbnail {
-	flex: 1 10%;
+	flex: 1 30%;
+	padding: 30px;
 }
 
 	.repo-thumbnail img {
@@ -86,18 +86,39 @@ header nav ul li {
 .repo-desc {
 	flex: 12 70%;
 }
-
 /* --- HERO Styles End --- */
 
+/* --- ABOUT-ME Styles Starts --- */
+.about {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
 
+.about-title {
+	width: 100%;
+	text-align: center;
+	justify-content: center;
+}
+
+	.about p {
+		text-align: center;
+		width: 100%;
+	}
+
+/* --- ABOUT-ME Styles End --- */
 
 /* FORMATTING DECLARATIONS */
 .section-title {
 	text-align: center;
+	width: 50%;
 }
-
 
 /* WORKER DECLARATIONS */
 .align-ctr {
 	align-self: center
+}
+
+.flex-row {
+	display: flex;
 }
