@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<link rel="stylesheet" href="./assets/css/style.css" />
 	<title>pot-of-coffee's Portfolio</title>
 </head>
@@ -12,7 +13,7 @@
 		<h1>
 			<a href="/">pot-of-coffee</a>
 		</h1>
-		<!-- Navigation Begins-->
+		<!--Navigation Begins-->
 		<nav>
 			<ul>
 				<li>
@@ -26,23 +27,24 @@
 				</li>
 			</ul>
 		</nav>
-		<!-- Navigation Ends -->
+		<!--Navigation Ends-->
 	</header>
 	<!-- --- HEADER ENDS --- -->
 	<!-- --- HERO STARTS --- -->
 	<section class="hero">
 		<!--Hero Spotlight (currently profile picture)-->
-		<div class="hero-spotlight align-self-ctr">
-			<img src="./assets/images/placeholder-ICON.png" alt="" />
+		<div class="hero-spotlight">
+			<img src="./assets/images/placeholder-CIRCLE.png" alt="" />
 		</div>
 
-		<div class="hero-info">
+		<!--Content Beside Spotlight-->
+		<div class="hero-content">
 			<!--Name, desc, etc.-->
-			<div class="hero-desc">
+			<div class="hero-bio">
 				<h2>
 					<a href="https://github.com/pot-of-coffee">pot-of-coffee</a>
 				</h2>
-				<h3>Web Developer</h3>
+				<h3>Full-Stack Web Developer</h3>
 				<ul>
 					<li>HTML</li>
 					<li>CSS</li>
@@ -50,14 +52,33 @@
 				</ul>
 			</div>
 
-			<!--List of respositories-->
-			<div class="hero-projects">
-				<h3>Repository List</h3>
+			<!--Featured respositories in hero-->
+			<div class="hero-featured">
+				<div class="section-title">
+					<h2>Featured Repositories</h2>
+				</div>
 
-				<article class="hero-repo">
-					<h4>This repo</h4>
-					<img src="./assets/images/placeholder-CIRCLE.png" alt="">
-				</article>
+				<div class="featured-repolist">
+					<article class="featured-repo">
+						<div class="repo-thumbnail">
+							<img src="./assets/images/placeholder-ICON.png" alt="" />
+						</div>
+						<div class="repo-desc">
+							<h3>[Placeholder Repo Name]</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae ante non sapien consectetur imperdiet. Suspendisse potenti. Praesent urna nisl, fermentum quis urna convallis, gravida ullamcorper purus. Sed vitae malesuada libero, ac blandit mi. Vivamus tincidunt mauris eros. Ut vitae aliquam ligula, a ultricies sem. Morbi molestie ante ut felis faucibus, eu sagittis orci pretium. Nulla facilisi. Vivamus mattis arcu lacus, at malesuada erat imperdiet a. Morbi eros metus, accumsan a lacinia ac, pulvinar ut arcu. Donec id mauris magna.</p>
+						</div>
+					</article>
+
+					<article class="featured-repo">
+						<div class="repo-thumbnail">
+							<img src="./assets/images/placeholder-ICON.png" alt="" />
+						</div>
+						<div class="repo-desc">
+							<h3>[Placeholder Repo Name]</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae ante non sapien consectetur imperdiet. Suspendisse potenti. Praesent urna nisl, fermentum quis urna convallis, gravida ullamcorper purus. Sed vitae malesuada libero, ac blandit mi. Vivamus tincidunt mauris eros. Ut vitae aliquam ligula, a ultricies sem. Morbi molestie ante ut felis faucibus, eu sagittis orci pretium. Nulla facilisi. Vivamus mattis arcu lacus, at malesuada erat imperdiet a. Morbi eros metus, accumsan a lacinia ac, pulvinar ut arcu. Donec id mauris magna.</p>
+						</div>
+					</article>
+				</div>
 			</div>
 		</div>
 	</section>
