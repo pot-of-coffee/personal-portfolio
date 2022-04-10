@@ -85,7 +85,25 @@ header nav ul li {
 
 .repo-desc {
 	flex: 12 70%;
+	padding: 30px 0 0 0;
 }
+
+	.repo-desc h3 {
+		padding: 0 0 10px 0;
+	}
+
+.repo-desc-links {
+	padding: 0 0 30px 0;
+}
+
+.wearther-points {
+	padding: 8px 0 0 0;
+}
+
+	.wearther-points li {
+		padding: 3px 0 0 0;
+	}
+
 /* --- HERO Styles End --- */
 
 /* --- ABOUT-ME Styles Starts --- */
@@ -93,6 +111,7 @@ header nav ul li {
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
+	margin: 50px;
 }
 
 .about-title {
